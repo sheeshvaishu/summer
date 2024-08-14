@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>data entry</title>
+<link href="summer.css" rel="stylesheet">
+<script>
+	function validate(){
+		var user=document.frm.us.value;
+		var pass=document.frm.ps.value;
+		var rpass=document.frm.rps.value;
+		var email=document.frm.em.value;
+		var t=document.frm.ph.value;
+		
+		if(isNaN(t)||t<1||t>10)
+		{
+			alert("not a valid telephone number");
+			return(false);
+		}
+		if(user==""|| user==null)
+		{
+			alert("user can not be empty");
+			return false;
+		}
+		if(pass.length<6)
+		{
+			alert("password can not be less than 6");
+			return false;
+		}
+		if (pass!=rpass)
+		{
+			alert("password does not match");
+			return false;
+		}
+		var at=em.indexOf("@");
+		var dot=em.lastIndexOf('.');
+		if(at<1||dot<at+2||dot+2<x.length())
+		{
+			alert("please enter valid email");
+			return(false);
+		}
+	}
+</script>
+</head>
+<body>
+	<h8>Login</h8>
+	<div class="login">
+	<form name="frm" method="post" onsubmit="return validate()">
+		username <input type="text" name="us"><br><br>
+		password <input type="password" name="ps"><br><br>
+		repassword <input type="repassword" name="rps"><br><br>
+        email <input type="email" name="em"><br><br>
+        telephone number <input type="text" name="ph"><br><br>
+        male <input type="radio" name="gender">
+        female <input type="radio" name="gender"><br><br><br>
+		<input type="submit" value="submit">
+		<input type="reset" value="cancel"><br><br>
+	</form>
+</div>
+</body>
+</html>
