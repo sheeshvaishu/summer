@@ -15,6 +15,7 @@ body{
     text-decoration: none;
     font-family: serif;
     text-shadow: 1.5px 1.5px #ddd7c0;
+	background-color: #C0C386;
 }
 .ok a:hover{
   border-radius: 10px;
@@ -77,11 +78,13 @@ h8{
 h9{
     font-size: 45px;
     color: #644228;
+	border-radius: 10px;
 	background-color: #C0C386;
 }
 h18{
     font-size: 45px;
     color: #644228;
+	border-radius: 10px;
 	background-color: #C0C386;
 }
 h10{
@@ -90,6 +93,7 @@ h10{
 h11{
 	font-size: 45px;
     color: #644228;
+	border-radius: 10px;
 	background-color: #C0C386;
 }
 h12{
@@ -99,11 +103,13 @@ h13{
     font-size: 45px;
     color: #644228;
 	background-color: #C0C386;
+	border-radius: 10px;
 }
 h14{
     font-size: 45px;
     color:#644228;
 	background-color: #C0C386;
+	border-radius: 10px;
 }
 h15{
 	font-size: 25px;
