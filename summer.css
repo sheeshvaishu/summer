@@ -125,6 +125,28 @@ h4{
 	position: center;
 	
 }
-.black{
-	color: black;
+
+
+h21{
+	background-color: #C0C386;
+	border-radius: 10px;
+	font-size: 24px;
+}
+h20{
+	background-color: #C0C386;
+	font-size: 25px;
+	position: absolute;
+	top:5%;
+	left:45%;
+}
+.episode{
+	position: absolute;
+	top:15%;
+	left:5%;
+}
+p21{
+	font-size: 24px;
+}
+p22{
+	font-size: 24px;
 }
